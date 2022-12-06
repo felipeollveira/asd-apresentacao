@@ -1,0 +1,62 @@
+@media screen and (max-width:1440px) and (min-width:660px){
+	.grids{
+		display: grid;
+		grid-template-columns: 70% 30%;
+	}
+	.grid-final{
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+	h1{
+		font-size: 26pt;
+	}
+	.txt-li{
+		margin-left: 6rem;
+		margin-top: 2rem;
+	}
+	.imgp{
+		left:37%;
+	top: 30%;
+	}
+	article{
+		display: flex;
+	}
+}
+
+@media screen and (max-width: 660px) and (min-width: 0px){
+	.grids{
+		display: grid;
+		grid-template-columns: 100%;
+		margin-left: ;
+		margin-right: ;
+	}
+
+	.lado{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	h1{
+		font-size: 18pt;
+		
+	}
+	.txt{
+		margin-left: 2rem;
+		margin-right: 2rem;
+		line-height: 22px;
+	}
+	.txt-li{
+	margin-left: 1rem;
+	margin-top: 2rem;
+	}
+	.imgp{
+		top: 5%;
+		left: 25%;
+	}
+	article{
+		display: grid;
+	}
+	
+
+
+
+}

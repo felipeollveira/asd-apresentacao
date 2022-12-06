@@ -171,7 +171,7 @@ z-index: 1;
 
 .modal .content{
 	background: #d3d3d3;
-	margin: 12% auto;
+	margin: auto;
 	padding: 20px;
 	border-radius: 5px 65px 5px 65px;
 	width: 80%;

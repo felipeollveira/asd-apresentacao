@@ -43,11 +43,11 @@ const modal = document.querySelector('.modal')
 	const switchModal = () => {
 		
 		const actualStyle = modal.style.display
-		if(actualStyle == 'block'){
+		if(actualStyle == 'flex'){
 			modal.style.display = 'none'
 		}
 		else{
-			modal.style.display = 'block'
+			modal.style.display = 'flex'
 		}
 	}
 

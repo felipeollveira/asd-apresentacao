@@ -8,7 +8,8 @@
 	}	
 
 	.txt-header{
-	margin: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
 	}
 
 	.grids{
@@ -35,7 +36,7 @@
 		display: flex;
 	}
 
-	*, .lado, .pct, li, .back{
+	*, .lado, .pct, li{
 		font-size: 14pt;
 	}
 
@@ -43,7 +44,7 @@
 		font-size: 10pt;
 	}
 
-	.lado, .back{
+	.lado{
 		font-size: 10pt;
 	}
 }
@@ -153,7 +154,8 @@
 	}	
 
 	.txt-header{
-	margin:10%;
+	margin-left: 10%;
+	margin-right: 10%;
 
 	}
 
@@ -189,7 +191,7 @@
 		display: flex;
 	}
 
-	*, .lado, .pct, li, .back{
+	*, .lado, .pct, li{
 		font-size: 28pt;
 	}
 

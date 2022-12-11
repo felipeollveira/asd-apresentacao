@@ -36,7 +36,7 @@
 		display: flex;
 	}
 
-	*, .lado, .pct, li{
+	*, .lado, .pct, li, .back{
 		font-size: 14pt;
 	}
 
@@ -44,7 +44,7 @@
 		font-size: 10pt;
 	}
 
-	.lado{
+	.lado, .back{
 		font-size: 10pt;
 	}
 }
@@ -191,7 +191,7 @@
 		display: flex;
 	}
 
-	*, .lado, .pct, li{
+	*, .lado, .pct, li, .back{
 		font-size: 28pt;
 	}
 

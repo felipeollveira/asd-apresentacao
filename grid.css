@@ -1,0 +1,64 @@
+.grid{
+	align-items: center;
+	justify-items: center;
+	justify-content: center;
+	}
+
+.span{
+	display: grid;
+	grid-template-columns: auto ;
+	grid-row-gap: 2rem;
+	width: auto;
+	align-items: center;
+	font-size: 12pt;	
+	text-align: center;
+	position: relative;
+	height: auto;
+}
+
+
+.span h3{
+	z-index: 1;
+	color: ;
+	font-size: 22pt;
+}
+
+span{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	z-index: 1;
+	text-align: justify;
+	word-spacing: 2px;
+	font-family: calibri;
+
+}
+
+input{
+	width: 100%;
+	  display: inline-block;
+     background-color: #F29D7E;
+     border-radius: 3px;
+     outline: none;
+}
+
+article{
+	;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+	position: relative;
+	
+}
+
+article div{
+	z-index: 1;
+}
+article img{
+	height: 30vh;
+	position: absolute;
+	top: 60%;
+	z-index: 0;
+	opacity: 0.2;
+}
+

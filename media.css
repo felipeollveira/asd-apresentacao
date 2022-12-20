@@ -111,8 +111,6 @@
 	font-size: 14pt;
 	}
 
-
-
 	.grids{
 		display: grid;
 		grid-template-columns: 60% 35%;
@@ -132,8 +130,12 @@
 		font-size: 14pt;
 	}
 
-	*, .lado, .pct, li, .li-f{
-		font-size: 16pt;
+	*, .lado, .pct, li{
+		font-size: 14pt;
+	}
+
+	.li-f{
+		font-size: 10pt;
 	}
 	
 	footer picture{
@@ -209,4 +211,10 @@
 	}
 
 
+}
+
+@media screen and (max-height: 1000px) (min-height{
+	footer picture{
+		width: 15px;
+	}
 }

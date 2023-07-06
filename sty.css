@@ -19,25 +19,19 @@
 
 
 nav{
-	position:;
 	top: 0px;
 	z-index: 1;
 	background: #f2f2f2;
 	width: auto;
 	height: auto;
-	padding: px;
 	display: flex;
 	
 }
 
-nav span{
-	
-}
-
 nav div{
-	padding: 5px;
-	font-size:8pt; 
-	opacity: 0.5;
+	padding: 3px;
+	font-size:4pt; 
+	opacity: 1;
 	
 	
 }

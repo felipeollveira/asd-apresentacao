@@ -1,10 +1,10 @@
 *{
 	padding: 0;
 	margin: 0;
-	font-family: micross.ttf;
+	font-family: 'Roboto';
 	transition-duration: 90ms;
-}
 
+}
 	
 .lado{
 	background: #EDEDED;
@@ -14,7 +14,7 @@
 	text-align: center;
 	align-items: center;
 	padding: 5px;
-
+	
 	}
 
 
@@ -26,22 +26,6 @@ nav{
 	height: auto;
 	display: flex;
 	
-}
-
-nav div{
-	padding: 3px;
-	font-size:4pt; 
-	opacity: 1;
-	
-	
-}
-
-nav div a{
-	list-style: none;
-	text-decoration: none;
-	color: purple;
-	cursor: pointer;
-	opacity: 1;
 }
 
 body{
@@ -66,7 +50,6 @@ header div{
 
 header div h1{
 	position: absolute;
-	left: ;
 	bottom:0px;
 	font-size: auto;
 	background:#800080;
@@ -78,9 +61,7 @@ header div h1{
 
 txt-li{
 	font-size: 10pt;
-		border-bottom:;
-		color: gray;
-
+	color: gray;
 }
 
 li{
@@ -98,7 +79,6 @@ li{
 	font-size: 13pt;
 	margin-top: 5%;
 	margin-bottom: 10%;
-	text-align: ;
 }
 
 strong{
@@ -167,7 +147,6 @@ footer span{
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	padding: ;
 	background:  #E3E3E3;
 }
 
@@ -188,11 +167,13 @@ footer span{
 .modal .content{
 	background: #f2f2f2;
 	margin: auto;
-	padding: 50px;
-	border-radius: 5px 65px 5px 65px;
+	padding: 30px;
+	/*border-radius: 5px 65px 5px 65px;*/
+	border-radius: 2px;
+	font-size: 16pt;
 	width: 80%;
 	display: flex;
-	text-align: center;
+	text-align: left;
 	flex-direction: column;
 	justify-content: center;
 	justify-items: center;

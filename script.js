@@ -39,17 +39,23 @@ const frases = [
 	'Sou mulher com muito Orgulho!'
 
 ];
+
 const modal = document.querySelector('.modal')
 	const switchModal = () => {
 		
 		const actualStyle = modal.style.display
 		if(actualStyle == 'flex'){
 			modal.style.display = 'none'
+			document.documentElement.style.overflow = 'auto'
+			
 		}
 		else{
-			modal.style.display = 'flex'
+			modal.style.display = 'flex'	
+			document.documentElement.style.overflow = 'auto'
 		}
-	}
+		// Algum erro ainda desconhecido na sintaxe fez com que fosse 
+		// impossivel alterar o overflow de auto-hidden-auto. 
+		}
 
 	 
 
